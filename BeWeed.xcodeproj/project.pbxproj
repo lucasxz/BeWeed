@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37EF183C297F66A600F33651 /* BeWeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF183B297F66A600F33651 /* BeWeedApp.swift */; };
+		37EF183E297F66A600F33651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF183D297F66A600F33651 /* ContentView.swift */; };
+		37EF1840297F66A600F33651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EF183F297F66A600F33651 /* Assets.xcassets */; };
+		37EF1843297F66A600F33651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EF1842297F66A600F33651 /* Preview Assets.xcassets */; };
+		37EF1845297F66A600F33651 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF1844297F66A600F33651 /* Persistence.swift */; };
+		37EF1848297F66A600F33651 /* BeWeed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37EF1846297F66A600F33651 /* BeWeed.xcdatamodeld */; };
+		37EF1852297F66A600F33651 /* BeWeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF1851297F66A600F33651 /* BeWeedTests.swift */; };
+		37EF185C297F66A600F33651 /* BeWeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF185B297F66A600F33651 /* BeWeedUITests.swift */; };
+		37EF185E297F66A600F33651 /* BeWeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF185D297F66A600F33651 /* BeWeedUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37EF184E297F66A600F33651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37EF1830297F66A500F33651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37EF1837297F66A500F33651;
+			remoteInfo = BeWeed;
+		};
+		37EF1858297F66A600F33651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37EF1830297F66A500F33651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37EF1837297F66A500F33651;
+			remoteInfo = BeWeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37EF1838297F66A500F33651 /* BeWeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeWeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EF183B297F66A600F33651 /* BeWeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeWeedApp.swift; sourceTree = "<group>"; };
+		37EF183D297F66A600F33651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37EF183F297F66A600F33651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37EF1842297F66A600F33651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37EF1844297F66A600F33651 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		37EF1847297F66A600F33651 /* BeWeed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeWeed.xcdatamodel; sourceTree = "<group>"; };
+		37EF184D297F66A600F33651 /* BeWeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeWeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EF1851297F66A600F33651 /* BeWeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeWeedTests.swift; sourceTree = "<group>"; };
+		37EF1857297F66A600F33651 /* BeWeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeWeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EF185B297F66A600F33651 /* BeWeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeWeedUITests.swift; sourceTree = "<group>"; };
+		37EF185D297F66A600F33651 /* BeWeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeWeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37EF1835297F66A500F33651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EF184A297F66A600F33651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EF1854297F66A600F33651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37EF182F297F66A500F33651 = {
+			isa = PBXGroup;
+			children = (
+				37EF183A297F66A600F33651 /* BeWeed */,
+				37EF1850297F66A600F33651 /* BeWeedTests */,
+				37EF185A297F66A600F33651 /* BeWeedUITests */,
+				37EF1839297F66A500F33651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37EF1839297F66A500F33651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37EF1838297F66A500F33651 /* BeWeed.app */,
+				37EF184D297F66A600F33651 /* BeWeedTests.xctest */,
+				37EF1857297F66A600F33651 /* BeWeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37EF183A297F66A600F33651 /* BeWeed */ = {
+			isa = PBXGroup;
+			children = (
+				37EF183B297F66A600F33651 /* BeWeedApp.swift */,
+				37EF183D297F66A600F33651 /* ContentView.swift */,
+				37EF183F297F66A600F33651 /* Assets.xcassets */,
+				37EF1844297F66A600F33651 /* Persistence.swift */,
+				37EF1846297F66A600F33651 /* BeWeed.xcdatamodeld */,
+				37EF1841297F66A600F33651 /* Preview Content */,
+			);
+			path = BeWeed;
+			sourceTree = "<group>";
+		};
+		37EF1841297F66A600F33651 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37EF1842297F66A600F33651 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37EF1850297F66A600F33651 /* BeWeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				37EF1851297F66A600F33651 /* BeWeedTests.swift */,
+			);
+			path = BeWeedTests;
+			sourceTree = "<group>";
+		};
+		37EF185A297F66A600F33651 /* BeWeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37EF185B297F66A600F33651 /* BeWeedUITests.swift */,
+				37EF185D297F66A600F33651 /* BeWeedUITestsLaunchTests.swift */,
+			);
+			path = BeWeedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37EF1837297F66A500F33651 /* BeWeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EF1861297F66A600F33651 /* Build configuration list for PBXNativeTarget "BeWeed" */;
+			buildPhases = (
+				37EF1834297F66A500F33651 /* Sources */,
+				37EF1835297F66A500F33651 /* Frameworks */,
+				37EF1836297F66A500F33651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeWeed;
+			productName = BeWeed;
+			productReference = 37EF1838297F66A500F33651 /* BeWeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37EF184C297F66A600F33651 /* BeWeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EF1864297F66A600F33651 /* Build configuration list for PBXNativeTarget "BeWeedTests" */;
+			buildPhases = (
+				37EF1849297F66A600F33651 /* Sources */,
+				37EF184A297F66A600F33651 /* Frameworks */,
+				37EF184B297F66A600F33651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37EF184F297F66A600F33651 /* PBXTargetDependency */,
+			);
+			name = BeWeedTests;
+			productName = BeWeedTests;
+			productReference = 37EF184D297F66A600F33651 /* BeWeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37EF1856297F66A600F33651 /* BeWeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EF1867297F66A600F33651 /* Build configuration list for PBXNativeTarget "BeWeedUITests" */;
+			buildPhases = (
+				37EF1853297F66A600F33651 /* Sources */,
+				37EF1854297F66A600F33651 /* Frameworks */,
+				37EF1855297F66A600F33651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37EF1859297F66A600F33651 /* PBXTargetDependency */,
+			);
+			name = BeWeedUITests;
+			productName = BeWeedUITests;
+			productReference = 37EF1857297F66A600F33651 /* BeWeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37EF1830297F66A500F33651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					37EF1837297F66A500F33651 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					37EF184C297F66A600F33651 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 37EF1837297F66A500F33651;
+					};
+					37EF1856297F66A600F33651 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 37EF1837297F66A500F33651;
+					};
+				};
+			};
+			buildConfigurationList = 37EF1833297F66A500F33651 /* Build configuration list for PBXProject "BeWeed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37EF182F297F66A500F33651;
+			productRefGroup = 37EF1839297F66A500F33651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37EF1837297F66A500F33651 /* BeWeed */,
+				37EF184C297F66A600F33651 /* BeWeedTests */,
+				37EF1856297F66A600F33651 /* BeWeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37EF1836297F66A500F33651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EF1843297F66A600F33651 /* Preview Assets.xcassets in Resources */,
+				37EF1840297F66A600F33651 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EF184B297F66A600F33651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EF1855297F66A600F33651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37EF1834297F66A500F33651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EF1845297F66A600F33651 /* Persistence.swift in Sources */,
+				37EF183E297F66A600F33651 /* ContentView.swift in Sources */,
+				37EF183C297F66A600F33651 /* BeWeedApp.swift in Sources */,
+				37EF1848297F66A600F33651 /* BeWeed.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EF1849297F66A600F33651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EF1852297F66A600F33651 /* BeWeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EF1853297F66A600F33651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EF185E297F66A600F33651 /* BeWeedUITestsLaunchTests.swift in Sources */,
+				37EF185C297F66A600F33651 /* BeWeedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37EF184F297F66A600F33651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37EF1837297F66A500F33651 /* BeWeed */;
+			targetProxy = 37EF184E297F66A600F33651 /* PBXContainerItemProxy */;
+		};
+		37EF1859297F66A600F33651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37EF1837297F66A500F33651 /* BeWeed */;
+			targetProxy = 37EF1858297F66A600F33651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37EF185F297F66A600F33651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37EF1860297F66A600F33651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37EF1862297F66A600F33651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeWeed/Preview Content\"";
+				DEVELOPMENT_TEAM = Q74KN3NQY7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weedweedweed.BeWeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37EF1863297F66A600F33651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BeWeed/Preview Content\"";
+				DEVELOPMENT_TEAM = Q74KN3NQY7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weedweedweed.BeWeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37EF1865297F66A600F33651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q74KN3NQY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weedweedweed.BeWeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeWeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeWeed";
+			};
+			name = Debug;
+		};
+		37EF1866297F66A600F33651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q74KN3NQY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weedweedweed.BeWeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeWeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeWeed";
+			};
+			name = Release;
+		};
+		37EF1868297F66A600F33651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q74KN3NQY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weedweedweed.BeWeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeWeed;
+			};
+			name = Debug;
+		};
+		37EF1869297F66A600F33651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q74KN3NQY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weedweedweed.BeWeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeWeed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37EF1833297F66A500F33651 /* Build configuration list for PBXProject "BeWeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EF185F297F66A600F33651 /* Debug */,
+				37EF1860297F66A600F33651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EF1861297F66A600F33651 /* Build configuration list for PBXNativeTarget "BeWeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EF1862297F66A600F33651 /* Debug */,
+				37EF1863297F66A600F33651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EF1864297F66A600F33651 /* Build configuration list for PBXNativeTarget "BeWeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EF1865297F66A600F33651 /* Debug */,
+				37EF1866297F66A600F33651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EF1867297F66A600F33651 /* Build configuration list for PBXNativeTarget "BeWeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EF1868297F66A600F33651 /* Debug */,
+				37EF1869297F66A600F33651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		37EF1846297F66A600F33651 /* BeWeed.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				37EF1847297F66A600F33651 /* BeWeed.xcdatamodel */,
+			);
+			currentVersion = 37EF1847297F66A600F33651 /* BeWeed.xcdatamodel */;
+			path = BeWeed.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 37EF1830297F66A500F33651 /* Project object */;
+}
