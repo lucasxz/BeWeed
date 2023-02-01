@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37D3D6AA2989BFD9006E3635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D3D6A92989BFD9006E3635 /* ViewController.swift */; };
+		37D3D6AE2989EB76006E3635 /* Inflate.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 37D3D6AD2989EB76006E3635 /* Inflate.ahap */; };
+		37D3D6B02989EB8F006E3635 /* Boing.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 37D3D6AF2989EB8F006E3635 /* Boing.ahap */; };
+		37D3D6B22989EC54006E3635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D3D6B12989EC54006E3635 /* AppDelegate.swift */; };
 		37EF183C297F66A600F33651 /* BeWeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF183B297F66A600F33651 /* BeWeedApp.swift */; };
 		37EF183E297F66A600F33651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF183D297F66A600F33651 /* ContentView.swift */; };
 		37EF1840297F66A600F33651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EF183F297F66A600F33651 /* Assets.xcassets */; };
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37D3D6A92989BFD9006E3635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37D3D6AB2989C4CA006E3635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		37D3D6AD2989EB76006E3635 /* Inflate.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Inflate.ahap; sourceTree = "<group>"; };
+		37D3D6AF2989EB8F006E3635 /* Boing.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Boing.ahap; sourceTree = "<group>"; };
+		37D3D6B12989EC54006E3635 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37EF1838297F66A500F33651 /* BeWeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeWeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37EF183B297F66A600F33651 /* BeWeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeWeedApp.swift; sourceTree = "<group>"; };
 		37EF183D297F66A600F33651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37D3D6AC2989EB64006E3635 /* AHAP */ = {
+			isa = PBXGroup;
+			children = (
+				37D3D6AF2989EB8F006E3635 /* Boing.ahap */,
+				37D3D6AD2989EB76006E3635 /* Inflate.ahap */,
+			);
+			path = AHAP;
+			sourceTree = "<group>";
+		};
 		37EF182F297F66A500F33651 = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +116,16 @@
 		37EF183A297F66A600F33651 /* BeWeed */ = {
 			isa = PBXGroup;
 			children = (
+				37D3D6B12989EC54006E3635 /* AppDelegate.swift */,
+				37D3D6AC2989EB64006E3635 /* AHAP */,
+				37D3D6AB2989C4CA006E3635 /* Info.plist */,
 				37EF183B297F66A600F33651 /* BeWeedApp.swift */,
 				37EF183D297F66A600F33651 /* ContentView.swift */,
 				37EF183F297F66A600F33651 /* Assets.xcassets */,
 				37EF1844297F66A600F33651 /* Persistence.swift */,
 				37EF1846297F66A600F33651 /* BeWeed.xcdatamodeld */,
 				37EF1841297F66A600F33651 /* Preview Content */,
+				37D3D6A92989BFD9006E3635 /* ViewController.swift */,
 			);
 			path = BeWeed;
 			sourceTree = "<group>";
@@ -237,6 +259,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D3D6AE2989EB76006E3635 /* Inflate.ahap in Resources */,
+				37D3D6B02989EB8F006E3635 /* Boing.ahap in Resources */,
 				37EF1843297F66A600F33651 /* Preview Assets.xcassets in Resources */,
 				37EF1840297F66A600F33651 /* Assets.xcassets in Resources */,
 			);
@@ -263,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D3D6B22989EC54006E3635 /* AppDelegate.swift in Sources */,
+				37D3D6AA2989BFD9006E3635 /* ViewController.swift in Sources */,
 				37EF1845297F66A600F33651 /* Persistence.swift in Sources */,
 				37EF183E297F66A600F33651 /* ContentView.swift in Sources */,
 				37EF183C297F66A600F33651 /* BeWeedApp.swift in Sources */,
@@ -427,12 +453,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BeWeed/Preview Content\"";
 				DEVELOPMENT_TEAM = Q74KN3NQY7;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeWeed/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera to detect faces and vapes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,12 +489,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BeWeed/Preview Content\"";
 				DEVELOPMENT_TEAM = Q74KN3NQY7;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeWeed/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "App uses camera to detect faces and vapes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
